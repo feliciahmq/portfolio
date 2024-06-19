@@ -17,7 +17,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-start mt-20 space-y-5 md:mt-32 md:space-y-7 md:px-5 lg:mt-32"
     >
-      <h1 className="mt-20 text-5xl font-bold">Projects</h1>
+      <h1 className="mt-20 text-5xl font-semibold">Projects</h1>
       <div className="grid gap-12 mt-12 md:grid-cols-2">
         {works.map((work, index) => (
           <div

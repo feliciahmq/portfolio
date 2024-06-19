@@ -6,9 +6,9 @@ const HeroContent = () => {
   const [aboutColor, contactColor] = useColorPair();
 
   return (
-    <div className='mt-10 fade-in flex flex-1 flex-col px-6 py-10 justify-center lg:px-10'>
+    <div className='fade-in flex flex-1 flex-col px-6 py-64 md:py-12 justify-center lg:px-10'>
       <div className="flex flex-col items-start space-y-5 md:space-y-7 md:px-5 lg:my-48">
-      <h1 className="text-4xl font-semibold lg:text-5xl">
+      <h1 className="text-4xl font-bold lg:text-5xl">
         Hey, I am Felicia Hwang <br />{' '}
       </h1>
       <p className="font-light lg:text-xl">
