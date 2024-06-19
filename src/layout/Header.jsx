@@ -32,7 +32,7 @@ const Header = () => {
           className="flex text-2xl font-bold text-gray-900 whitespace-nowrap"
           aria-label="Felicia Hwang - portfolio website"
         >
-          logo
+          {/* logo */}
         </a>
         <div className="flex">
           {darkMode ? (
