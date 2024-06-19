@@ -31,6 +31,7 @@ const HeroContent = () => {
             about me
           </RoughNotation>
         </a>
+        <span style={{ display: 'block', height: '8px' }}></span>
         or
         <a
           className="ml-2 mr-2 font-normal text-black"
