@@ -11,7 +11,7 @@ const Header = () => {
           className="flex text-2xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
           aria-label="Felicia Hwang - personal portfolio website"
         >
-          Logo
+          
         </a>
         <div className="flex">
           <MoonIcon className='fade-in text-xl' />

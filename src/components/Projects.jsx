@@ -1,15 +1,15 @@
 import React from 'react';
-import tototimer from '../assets/images/BankLandingPage.png';
+import BankLandingPage from '../assets/images/BankLandingPage.png';
 
 const Projects = () => {
   const works = [
     {
       title: 'Bank Landing Page',
-      description: 'PWA App to Manage Time, Money and Work. [React, Tailwind CSS]',
-      code: 'https://github.com/vikrammahto/tototimer',
-      live: 'https://tototimer.vercel.app/',
+      description: 'Responsive and visually appealing landing page.',
+      code: 'https://github.com/feliciahmq/bank-landing-page',
+      live: 'https://feliciahmq.github.io/bank-landing-page/',
       stack: 'React, Tailwind CSS',
-      thumbnail: tototimer,
+      thumbnail: BankLandingPage,
     },
   ];
   return (
@@ -17,12 +17,12 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-start mt-20 space-y-5 md:mt-32 md:space-y-7 md:px-5 lg:mt-32"
     >
-      <h1 className="text-3xl font-bold">Projects</h1>
-      <div className="grid gap-12 mt-12 md:grid-cols-3">
+      <h1 className="mt-20 text-5xl font-bold">Projects</h1>
+      <div className="grid gap-12 mt-12 md:grid-cols-2">
         {works.map((work, index) => (
           <div
             key={index}
-            className="p-4 space-y-5 border border-white group lg:gap-x-0 lg:gap-y-5 hover:border-zinc-200 rounded-2xl"
+            className="p-4 space-y-5 border border-white group lg:gap-x-0 lg:gap-y-5 border-zinc-200 rounded-2xl"
           >
             <img
               alt="blog"
@@ -40,7 +40,7 @@ const Projects = () => {
                   href={work.live}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-150 border rounded-lg hover:bg-zinc-900 hover:text-white"
+                  className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white"
                 >
                   Live{' '}
                   <svg
@@ -65,7 +65,7 @@ const Projects = () => {
                   href={work.code}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-150 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white"
+                  className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white"
                 >
                   Source Code{' '}
                   <svg
