@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noreferrer"
             aria-label="Follow me on Github"
           >
-            <GithubIcon size={24} color="black"/>
+            <GithubIcon size={24} className='text-black dark:text-white'/>
           </a>
           <a
             href="https://www.linkedin.com/in/feliciahmq/"
