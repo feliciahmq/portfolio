@@ -1,5 +1,6 @@
 import React from 'react';
 import BankLandingPage from '../assets/images/BankLandingPage.png';
+import MechHub from '../assets/images/MechHub.png';
 
 const Projects = () => {
   const works = [
@@ -10,6 +11,14 @@ const Projects = () => {
       live: 'https://feliciahmq.github.io/bank-landing-page/',
       stack: 'React, Tailwind CSS',
       thumbnail: BankLandingPage,
+    },
+    {
+      title: 'MechHub Ecommerce Platform',
+      description: 'A full-stack ecommerce platform for mechnical keyboards.',
+      code: 'https://github.com/feliciahmq/orbital-mechhub.git',
+      live: 'https://orbital-mechhub.web.app/',
+      stack: 'React, Tailwind CSS',
+      thumbnail: MechHub,
     },
   ];
   return (
