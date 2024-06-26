@@ -17,7 +17,7 @@ const Projects = () => {
       description: 'A full-stack ecommerce platform for mechnical keyboards.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
-      stack: 'React, Tailwind CSS',
+      stack: 'ReactJS, Firebase',
       thumbnail: MechHub,
     },
   ];
