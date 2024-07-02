@@ -18,12 +18,12 @@ const About = () => {
           <h3 className="pt-4 pb-2 text-2xl font-semibold leading-8 tracking-tight dark:text-gray-100">
             Felicia Hwang
           </h3>
-          <div className="text-gray-500 dark:text-gray-400">
+          <div className="text-gray-600 dark:text-gray-200">
             Intern @ CAAS
           </div>
         </div>
 
-        <div className="prose max-w-none pt-8 pb-8 md:flex-1 text-gray-700 dark:text-gray-300">
+        <div className="prose max-w-none pt-8 pb-8 md:flex-1 dark:text-gray-300">
         <p className="mt-8">
             I am a second-year <strong className="dark:text-gray-100">Computer Science</strong> student at the 
             <strong className="dark:text-gray-100"> National University of Singapore</strong>.
