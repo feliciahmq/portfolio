@@ -5,13 +5,22 @@ import rehypeRaw from 'rehype-raw';
 
 const About = () => {
   const description = `
-  I am a first-year **Business Analytics** student at the **National University of Singapore**.
+  I am a first-year **Business Analytics** student at the **National University of Singapore**.  
 
-  Currently, I am interning as a **Digital Transformation Intern** at 
-  <u><a href="https://www.caas.gov.sg" target="_blank" rel="noopener"> Civil Aviation Authority of Singapore CAAS</u></a>.
-  My work involves supporting digital transformation efforts in CAAS, coordinating events,
-  and creating content for internal communications. This internship enhances my
-  skills in project management, agile methodologies, and business process optimization.
+  &nbsp;
+
+  During my summer, I interned as a **Digital Transformation Intern** at 
+  <u><a href="https://www.caas.gov.sg" target="_blank" rel="noopener"> Civil Aviation Authority of Singapore CAAS</u></a>. 
+  My work involves supporting digital transformation efforts in CAAS. 
+  
+  &nbsp;
+  
+  I developed **user journey storyboards** to visualize digital processes within the office, ensuring that workflows are efficient and 
+  streamlined for an optimal user experience across various use cases. Additionally, I performed **competitor analysis** of different 
+  Service Management platforms to identify the best solution for our needs. Lastly, I **automated workflows using UiPath**, 
+  significantly enhacing operational efficiency and boosting overall productivity at CAAS.
+
+  &nbsp;
 
   When I'm not immersed in work or studies, you'll likely find me lost in the
   world of Lego, building to my heart's content!
