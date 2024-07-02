@@ -1,10 +1,24 @@
 import React from 'react';
 import { RoughNotation } from 'react-rough-notation';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const About = () => {
+  const description = `
+  I am a first-year **Business Analytics** student at the **National University of Singapore**.
+
+  Currently, I am interning as a **Digital Transformation Intern** at 
+  <u><a href="https://www.caas.gov.sg" target="_blank" rel="noopener"> Civil Aviation Authority of Singapore CAAS</u></a>.
+  My work involves supporting digital transformation efforts in CAAS, coordinating events,
+  and creating content for internal communications. This internship enhances my
+  skills in project management, agile methodologies, and business process optimization.
+
+  When I'm not immersed in work or studies, you'll likely find me lost in the
+  world of Lego, building to my heart's content!
+  `;
 
   return (
-    <div className="flex flex-col items-start my-10 space-y-5 md:my-32 md:space-y-7 md:px-5 lg:my-32">
+    <div className="flex flex-col items-start space-y-5 min-h-screen justify-center md:space-y-7 md:px-5">
       <h1 id="about" className="text-5xl font-semibold pt-32 dark:text-gray-100">About Me</h1>
       <div className="md:flex md:items-start md:space-x-8 md:w-full md:justify-center">
         <div className="flex flex-col items-center space-x-2 pt-8">
@@ -23,23 +37,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="prose max-w-none pt-8 pb-8 md:flex-1 dark:text-gray-300">
-        <p className="mt-8">
-            I am a second-year <strong className="dark:text-gray-100">Computer Science</strong> student at the 
-            <strong className="dark:text-gray-100"> National University of Singapore</strong>.
-          </p>
-          <p className="mt-4">
-            Currently, I am interning as an <strong className="dark:text-gray-100"> Digital Transformation Intern</strong> at {``}  
-            <a href="https://www.caas.gov.sg" className="underline dark:text-gray-100" target="_blank" rel="noreferrer" >
-             Civil Aviation Authority of Singapore CAAS</a>. 
-             My work involves supporting digital transformation efforts in CAAS, coordinating events
-             and creating content for internal communications. This internship enhances my 
-             skills in project management, agile methodologies, and business process optimization.
-          </p>
-          <p className="mt-4">
-            When I'm not immersed in work or studies, you'll likely find me lost in the
-             world of Lego, building to my heart's content!
-          </p>
+        <div className="prose max-w-none pt-14 pb-8 md:flex-1 dark:text-gray-300">
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{description}</ReactMarkdown>
           <p className="mt-8 cursor-pointer">
             <a
               className="!font-normal !text-black dark:!text-white !no-underline"
