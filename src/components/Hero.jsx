@@ -12,7 +12,7 @@ const HeroContent = () => {
         Hey, I am Felicia Hwang <br />{' '}
       </h1>
       <p className="font-light lg:text-xl">
-        Read more
+        Click to read more
         <a className="ml-2 mr-2 font-normal text-black cursor-pointer" 
             onClick={(e) => {
               e.preventDefault();

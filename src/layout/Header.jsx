@@ -22,10 +22,8 @@ const Header = () => {
     setDarkMode(!darkMode);
   };
 
-
-
   return (
-    <header className="sticky top-0 z-40 flex-none mx-auto w-full backdrop-blur-sm border-b">
+    <header className="sticky top-0 z-50 flex-none mx-auto w-full bg-white border-b dark:bg-gray-900">
       <div className="py-3 px-3 mx-auto w-full flex justify-between align-middle max-w-6xl md:px-4">
         <a
           href="/"

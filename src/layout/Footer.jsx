@@ -7,9 +7,9 @@ const Footer = () => {
   const iconStyle =
     'inline-flex justify-center items-center w-10 h-10 text-center rounded-full transition';
   return (
-    <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
-      <div className="text-center font-light text-sm">
-        <div className="mt-8 space-x-2 my-2">
+    <footer className="mt-auto w-full max-w-[85rem] py-6 px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="text-center font-light text-ms">
+        <div className="mt-10 space-x-8 my-2">
         <a
             className={`${iconStyle} hover:text-github`}
             href="https://github.com/feliciahmq"
@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noreferrer"
             aria-label="Follow me on Github"
           >
-            <GithubIcon size={24} className='text-black dark:text-white'/>
+            <GithubIcon size={35} className='text-black dark:text-white'/>
           </a>
           <a
             href="https://www.linkedin.com/in/feliciahmq/"
@@ -26,7 +26,7 @@ const Footer = () => {
             className={`${iconStyle} hover:text-linkedin`}
             aria-label="Follow me on LinkedIn"
           >
-            <LinkedinIcon size={24} color="#0277B5" />
+            <LinkedinIcon size={35} color="#0277B5" />
           </a>
           <a
             href="mailto:feliciahmq@u.nus.edu"
@@ -35,7 +35,7 @@ const Footer = () => {
             className={`${iconStyle} hover:text-email`}
             aria-label="Email me"
           >
-            <MailIcon size={24} color="#D44738" />
+            <MailIcon size={35} color="#D44738" />
           </a>
         </div>
         &copy; 2024 Felicia Hwang
