@@ -11,7 +11,7 @@ const HeroContent = () => {
       <h1 className="text-4xl font-bold lg:text-5xl">
         Hey, I am Felicia Hwang <br />{' '}
       </h1>
-      <p className=" lg:text-xl">
+      <p className="lg:text-xl">
         Click to read more
         <a className="ml-2 mr-2 font-normal text-black cursor-pointer" 
             onClick={(e) => {
