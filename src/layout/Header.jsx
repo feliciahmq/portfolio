@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { IoMdMoon as MoonIcon } from 'react-icons/io';
-import { IoSunnyOutline as SunIcon } from 'react-icons/io5';
+import { IoSunnyOutline as SunIcon, IoDocumentTextOutline as ResumeIcon } from 'react-icons/io5';
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -32,7 +32,14 @@ const Header = () => {
         >
           {/* logo */}
         </a>
-        <div className="flex">
+        <div className="flex space-x-4">
+          <a href="/static/HwangMeiQiFelicia_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Felicia Hwang - Resume" 
+          >
+            <ResumeIcon className='cursor-pointer fade-in text-xl md:text-3xl dark:text-white'/>
+          </a>
           {darkMode ? (
             <SunIcon className='fade-in text-xl md:text-3xl cursor-pointer' onClick={toggleDarkMode} />
           ) : (
