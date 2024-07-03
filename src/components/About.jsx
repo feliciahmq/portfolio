@@ -5,7 +5,7 @@ import rehypeRaw from 'rehype-raw';
 
 const About = () => {
   const description = `
-  I am a first-year **Business Analytics** student at the **National University of Singapore**.  
+  I am a second-year **Computer Science** student at the **National University of Singapore**.  
 
   &nbsp;
 
@@ -18,7 +18,7 @@ const About = () => {
   I developed **user journey storyboards** to visualize digital processes within the office, ensuring that workflows are efficient and 
   streamlined for an optimal user experience across various use cases. Additionally, I performed **competitor analysis** of different 
   Service Management platforms to identify the best solution for our needs. Lastly, I **automated workflows using UiPath**, 
-  significantly enhacing operational efficiency and boosting overall productivity at CAAS.
+  significantly enhancing operational efficiency and boosting overall productivity at CAAS.
 
   &nbsp;
 
