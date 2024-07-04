@@ -30,7 +30,7 @@ const About = () => {
     <div className="flex flex-col items-start space-y-5 min-h-screen justify-center md:space-y-7 md:px-5">
       <h1 id="about" className="text-5xl font-semibold pt-32 dark:text-gray-100">About Me</h1>
       <div className="md:flex md:items-start md:space-x-8 md:w-full md:justify-center">
-        <div className="flex flex-col items-center space-x-2 pt-8">
+        <div className="flex flex-col items-center space-x-2 pt-16">
           <img
             src="/static/avatar.jpg"
             alt="avatar"
