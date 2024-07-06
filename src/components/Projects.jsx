@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'A full-stack e-commerce platform for mechanical keyboards, built with a friend. I mainly worked on the user authentication system, real-time chat system and an FAQ chatbot using Dialogflow.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
-      stack: 'ReactJS, Firebase, Zustand, Git,',
+      stack: 'ReactJS, Firebase, Zustand, Git',
       thumbnail: MechHub,
     },
     {
