@@ -14,13 +14,21 @@ const Projects = () => {
     },
     {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack ecommerce platform for mechnical keyboards.',
+      description: 'Co-developed a full-stack e-commerce platform specifically for mechanical keyboards, working alongside a partner. I primarily focused on building the user authentication system, real-time chat system, recommendation engine, and an AI-driven FAQ chatbot.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
-      stack: 'ReactJS, Firebase',
+      stack: 'ReactJS, Python, Firebase',
       thumbnail: MechHub,
     },
   ];
+  
+  const TechStack = ({ stack }) => {
+    return (
+      <span className="px-2 py-1 text-xs font-semibold text-gray-700 bg-gray-200 rounded-full">
+        {stack}
+      </span>
+    );
+  };
   return (
     <div>
       <div className="pt-20 lg:pt-0"></div>
@@ -46,6 +54,11 @@ const Projects = () => {
               <div className="flex flex-col items-start space-y-3">
                 <h2 className="text-xl font-semibold">{work.title}</h2>
                 <p>{work.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {work.stack.split(', ').map((tech, techIndex) => (
+                    <TechStack key={techIndex} stack={tech} />
+                  ))}
+                </div>
                 <div className="flex flex-row items-center w-full">
                   <a
                     href={work.live}
