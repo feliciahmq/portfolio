@@ -5,20 +5,20 @@ import MechHub from '../assets/images/MechHub.png';
 const Projects = () => {
   const works = [
     {
-      title: 'Bank Landing Page',
-      description: 'Responsive and visually appealing landing page.',
-      code: 'https://github.com/feliciahmq/bank-landing-page',
-      live: 'https://feliciahmq.github.io/bank-landing-page/',
-      stack: 'React, Tailwind CSS',
-      thumbnail: BankLandingPage,
-    },
-    {
       title: 'MechHub Ecommerce Platform',
-      description: 'Co-developed a full-stack e-commerce platform specifically for mechanical keyboards, working alongside a partner. I primarily focused on building the user authentication system, real-time chat system, recommendation engine, and an AI-driven FAQ chatbot.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, built with a friend. I mainly worked on building the user authentication system, real-time chat system, product recommendation engine, and an FAQ chatbot.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
       stack: 'ReactJS, Python, Firebase',
       thumbnail: MechHub,
+    },
+    {
+      title: 'Bank Landing Page',
+      description: 'A modern bank landing page. I was exploring tailwind css and web dev!',
+      code: 'https://github.com/feliciahmq/bank-landing-page',
+      live: 'https://feliciahmq.github.io/bank-landing-page/',
+      stack: 'React, Tailwind CSS',
+      thumbnail: BankLandingPage,
     },
   ];
   
