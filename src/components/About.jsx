@@ -5,7 +5,7 @@ import rehypeRaw from 'rehype-raw';
 
 const About = () => {
   const description = `
-  I am a second-year **Computer Science** student at the **National University of Singapore**.  
+  I am a second-year **Computer Science** student at the **National University of Singapore**. (Fun fact: I was studying Business Analytics in Year 1, but I really enjoyed tech & programming, so I switched!)
 
   &nbsp;
 
