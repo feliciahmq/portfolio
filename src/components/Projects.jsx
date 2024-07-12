@@ -73,7 +73,7 @@ const Projects = () => {
                     href={work.live}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white"
+                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
                   >
                     Live{' '}
                     <svg
@@ -98,7 +98,7 @@ const Projects = () => {
                     href={work.code}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white"
+                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
                   >
                     Source Code{' '}
                     <svg
