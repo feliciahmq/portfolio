@@ -1,16 +1,25 @@
 import React from 'react';
 import BankLandingPage from '../assets/images/BankLandingPage.png';
 import MechHub from '../assets/images/MechHub.png';
+import InfiniGen from '../assets/images/InfiniGen.png';
 
 const Projects = () => {
   const works = [
     {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, built with a friend. I mainly worked on the user authentication system, real-time chat system and an FAQ chatbot using Dialogflow.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, built with a buddy. I mainly worked on the user authentication system, real-time chat system and an FAQ chatbot.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
       stack: 'ReactJS, Firebase, Zustand, Git',
       thumbnail: MechHub,
+    },
+    {
+      title: 'InfiniGen',
+      description: 'A platform that generates infinite possibilities. A mini project to explore the power of Next.js! No API integration yet.',
+      code: 'https://github.com/feliciahmq/infinigen',
+      live: 'https://infinigen.vercel.app/',
+      stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
+      thumbnail: InfiniGen,
     },
     {
       title: 'Bank Landing Page',
