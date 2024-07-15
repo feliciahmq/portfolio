@@ -1,7 +1,7 @@
-import React from 'react';
 import BankLandingPage from '../assets/images/BankLandingPage.png';
 import MechHub from '../assets/images/MechHub.png';
 import InfiniGen from '../assets/images/InfiniGen.png';
+import FinHub from "../assets/images/FinHub.png"
 
 const Projects = () => {
   const works = [
@@ -22,6 +22,14 @@ const Projects = () => {
       thumbnail: InfiniGen,
     },
     {
+      title: 'FinHub',
+      description: 'A data dashboard built with MERN stack.',
+      code: 'https://github.com/feliciahmq/finhub',
+      live: '',
+      stack: 'React, Nodejs, Expressjs, MongoDB, Redux Toolkit, Material UI',
+      thumbnail: FinHub,
+    },
+    {
       title: 'Bank Landing Page',
       description: 'A modern bank landing page. I was exploring tailwind css and web dev!',
       code: 'https://github.com/feliciahmq/bank-landing-page',
@@ -38,6 +46,7 @@ const Projects = () => {
       </span>
     );
   };
+
   return (
     <div>
       <div className="pt-20 lg:pt-0"></div>
@@ -68,8 +77,9 @@ const Projects = () => {
                     <TechStack key={techIndex} stack={tech} />
                   ))}
                 </div>
-                <div className="flex flex-row items-center w-full">
-                  <a
+                <div className="flex flex-row items-center w-full justify-start space-x-3">
+                  {work.live && (
+                    <a
                     href={work.live}
                     target="_blank"
                     rel="noreferrer"
@@ -94,11 +104,12 @@ const Projects = () => {
                       <path d="M16 9h2"></path>
                     </svg>
                   </a>
+                  )}
                   <a
                     href={work.code}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg ms-3 hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
+                    className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
                   >
                     Source Code{' '}
                     <svg
