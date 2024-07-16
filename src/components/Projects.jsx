@@ -25,7 +25,7 @@ const Projects = () => {
       title: 'FinHub',
       description: 'A data dashboard built with MERN stack.',
       code: 'https://github.com/feliciahmq/finhub',
-      live: '',
+      live: 'https://drive.google.com/file/d/1zvYOmkbDfuLAKlEVh8YF6VTaAFmYxOXx/view?usp=drive_link',
       stack: 'React, Nodejs, Expressjs, MongoDB, Redux Toolkit, Material UI',
       thumbnail: FinHub,
     },
