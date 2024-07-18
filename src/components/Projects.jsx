@@ -7,7 +7,7 @@ const Projects = () => {
   const works = [
     {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, built with a friend.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
       stack: 'ReactJS, Firebase, Zustand, Git',
