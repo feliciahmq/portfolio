@@ -2,9 +2,18 @@ import BankLandingPage from '../assets/images/BankLandingPage.png';
 import MechHub from '../assets/images/MechHub.png';
 import InfiniGen from '../assets/images/InfiniGen.png';
 import FinHub from "../assets/images/FinHub.png"
+import NFTCo from "../assets/images/NFTCo.png"
 
 const Projects = () => {
   const works = [
+    {
+      title: 'NFTCo Marketplace',
+      description: 'An NFT marketplace on Ethereum, using Solidity Smart Contract to facilitate transactions. Using Hardhat for developing and testing smart contracts. Integrating with MetaMask for secure user authentication. Have yet conected smart contract with frontend :(',
+      code: 'https://github.com/feliciahmq/nft-marketplace',
+      live: 'https://github.com/feliciahmq/nft-marketplace',
+      stack: 'Ethereum, Smart Contract, Solidity, Hardhat, ReactJS, NextJS',
+      thumbnail: NFTCo,
+    },
     {
       title: 'MechHub Ecommerce Platform',
       description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system.',
@@ -74,7 +83,7 @@ const Projects = () => {
                 <p>{work.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {work.stack.split(', ').map((tech, techIndex) => (
-                    <TechStack key={techIndex} stack={tech} />
+                    <TechStack stack={tech} key={techIndex} />
                   ))}
                 </div>
                 <div className="flex flex-row items-center w-full justify-start space-x-3">
