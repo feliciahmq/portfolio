@@ -8,7 +8,7 @@ const Projects = () => {
   const works = [
     {
       title: 'NFTCo Marketplace',
-      description: 'An NFT marketplace on Ethereum, using Solidity Smart Contract to facilitate transactions. Using Hardhat for developing and testing smart contracts. Integrating with MetaMask for secure user authentication. Have yet conected smart contract with frontend :(',
+      description: 'An NFT marketplace on Ethereum, using Solidity Smart Contract to facilitate transactions. Using Hardhat for developing and testing smart contracts. Integrating with MetaMask for secure user authentication. Have yet connected smart contract with frontend :(',
       code: 'https://github.com/feliciahmq/nft-marketplace',
       live: 'https://github.com/feliciahmq/nft-marketplace',
       stack: 'Ethereum, Smart Contract, Solidity, Hardhat, ReactJS, NextJS',
@@ -16,10 +16,10 @@ const Projects = () => {
     },
     {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Utilised Zustand for state management, and developed unit testings with Jest and React Testing Library.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
-      stack: 'ReactJS, Firebase, Zustand, Git',
+      stack: 'ReactJS, Firebase, Zustand, Git, Jest, React Testing Library',
       thumbnail: MechHub,
     },
     {
