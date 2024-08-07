@@ -23,20 +23,20 @@ const Projects = () => {
       thumbnail: MechHub,
     },
     {
-      title: 'InfiniGen',
-      description: 'A platform that generates infinite possibilities. A mini project to explore the power of Next.js! No API integration yet.',
-      code: 'https://github.com/feliciahmq/infinigen',
-      live: 'https://infinigen.vercel.app/',
-      stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
-      thumbnail: InfiniGen,
-    },
-    {
       title: 'FinHub',
       description: 'A data dashboard built with MERN stack.',
       code: 'https://github.com/feliciahmq/finhub',
       live: 'https://drive.google.com/file/d/1zvYOmkbDfuLAKlEVh8YF6VTaAFmYxOXx/view?usp=drive_link',
       stack: 'React, Nodejs, Expressjs, MongoDB, Redux Toolkit, Material UI',
       thumbnail: FinHub,
+    },
+    {
+      title: 'InfiniGen',
+      description: 'A platform that generates infinite possibilities. A mini project to explore the power of Next.js! No API integration yet.',
+      code: 'https://github.com/feliciahmq/infinigen',
+      live: 'https://infinigen.vercel.app/',
+      stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
+      thumbnail: InfiniGen,
     },
     {
       title: 'Bank Landing Page',

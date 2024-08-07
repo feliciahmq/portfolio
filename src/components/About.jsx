@@ -1,30 +1,24 @@
-import React from 'react';
 import { RoughNotation } from 'react-rough-notation';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 
 const About = () => {
   const description = `
-  I am a second-year **Computer Science** student at the **National University of Singapore**. (Fun fact: I was studying Business Analytics in Year 1, but I really enjoyed tech & programming, so I switched!)
+  I'm a second-year **Computer Science** student at the **National University of Singapore**. (Fun fact: I was studying Business Analytics in Year 1, but I wanted to dive deep into AI, Networks and Databases, so I switched!)
 
   &nbsp;
 
-  During my summer, I interned as a **Digital Transformation Intern** at 
+  Over the summer, I interned as a **Digital Transformation Intern** at 
   <u><a href="https://www.caas.gov.sg" target="_blank" rel="noopener"> Civil Aviation Authority of Singapore CAAS</u></a>. 
-  My work involves supporting digital transformation efforts in CAAS. 
+  I developed RPA workflows with UiPath, using custom activities and data scraping techniques to automate repetitive tasks and enhancing operational efficiency at CAAS.
   
   &nbsp;
   
-  I developed **user journey storyboards** to visualize digital processes within the office, ensuring that workflows are efficient and 
-  streamlined for an optimal user experience across various use cases. Additionally, I performed **competitor analysis** of different 
-  Service Management platforms to identify the best solution for our needs. Lastly, I **automated workflows using UiPath**, 
-  significantly enhancing operational efficiency and boosting overall productivity at CAAS.
+  Currently in school, I am taking modules on <u>Computer Organisation and Computer Networks</u>. I also serve as a **teaching assistant for CS2030**, where I facilitate lab sessions on functional programming and object-oriented programming in Java.
 
   &nbsp;
 
-  When I'm not immersed in work or studies, you'll likely find me lost in the
-  world of Lego, building to my heart's content!
-  `;
+  When I'm not immersed in work or studies, you'll likely find me building legos!`;
 
   return (
     <div className="flex flex-col items-start space-y-5 min-h-screen justify-center md:space-y-7 md:px-5">

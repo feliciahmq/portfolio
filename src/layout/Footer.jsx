@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaLinkedinIn as LinkedinIcon } from 'react-icons/fa';
 import { IoLogoGithub as GithubIcon } from 'react-icons/io';
 import { SiGmail as MailIcon } from 'react-icons/si';
