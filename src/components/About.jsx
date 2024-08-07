@@ -7,14 +7,12 @@ const About = () => {
   I'm a second-year **Computer Science** student at the **National University of Singapore**. (Fun fact: I was studying Business Analytics in Year 1, but I wanted to dive deep into AI, Networks and Databases, so I switched!)
 
   &nbsp;
+  
+  Currently in school, I'm taking modules in <u>Computer Organisation and Computer Networks</u>. I also serve as a **teaching assistant for CS2030**, where I facilitate lab sessions on functional programming and object-oriented programming in Java.
 
-  Over the summer, I interned as a **Digital Transformation Intern** at 
-  <u><a href="https://www.caas.gov.sg" target="_blank" rel="noopener"> Civil Aviation Authority of Singapore CAAS</u></a>. 
-  I developed RPA workflows with UiPath, using custom activities and data scraping techniques to automate repetitive tasks and enhancing operational efficiency at CAAS.
-  
   &nbsp;
-  
-  Currently in school, I am taking modules on <u>Computer Organisation and Computer Networks</u>. I also serve as a **teaching assistant for CS2030**, where I facilitate lab sessions on functional programming and object-oriented programming in Java.
+
+  In addition to my studies, I'm working on a chatbot project that provides personalised medical advice to patients. The chatbot uses machine learning for accurate responses and involves both frontend and backend development.
 
   &nbsp;
 
