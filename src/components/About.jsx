@@ -34,7 +34,7 @@ const About = () => {
             Felicia Hwang
           </h3>
           <div className="text-gray-600 dark:text-gray-200">
-            Intern @ CAAS
+            CS @ NUS
           </div>
         </div>
 
