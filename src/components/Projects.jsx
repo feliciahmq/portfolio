@@ -16,15 +16,15 @@ const Projects = () => {
     },
     {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Utilised Zustand for state management, and developed unit testings with Jest and React Testing Library.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Utilised Tensorflow to calculate cosine similarity for product recommendation engine, and developed unit testings with Jest and React Testing Library.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
-      stack: 'ReactJS, Firebase, Zustand, Git, Jest, React Testing Library',
+      stack: 'ReactJS, Firebase, Tensorflow, Zustand, Git, Jest, React Testing Library',
       thumbnail: MechHub,
     },
     {
       title: 'FinHub',
-      description: 'A data dashboard built with MERN stack.',
+      description: 'A data dashboard built with MERN stack. It allows users to  visualise and analyse real-time financial data.',
       code: 'https://github.com/feliciahmq/finhub',
       live: 'https://drive.google.com/file/d/1zvYOmkbDfuLAKlEVh8YF6VTaAFmYxOXx/view?usp=drive_link',
       stack: 'React, Nodejs, Expressjs, MongoDB, Redux Toolkit, Material UI',
@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       title: 'InfiniGen',
-      description: 'A platform that generates infinite possibilities. A mini project to explore the power of Next.js! No API integration yet.',
+      description: 'An AI generation platform that focuses on a fully interactive frontend, built to explore NextJS. The project is without API integration. ',
       code: 'https://github.com/feliciahmq/infinigen',
       live: 'https://infinigen.vercel.app/',
       stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
