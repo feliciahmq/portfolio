@@ -10,7 +10,7 @@ const Projects = () => {
       title: 'NFTCo Marketplace',
       description: 'An NFT marketplace on Ethereum, using Solidity Smart Contract to facilitate transactions. Using Hardhat for developing and testing smart contracts. Integrating with MetaMask for secure user authentication. Have yet connected smart contract with frontend :(',
       code: 'https://github.com/feliciahmq/nft-marketplace',
-      live: 'https://github.com/feliciahmq/nft-marketplace',
+      live: 'https://nftco-frontend.vercel.app/NF',
       stack: 'Ethereum, Smart Contract, Solidity, Hardhat, ReactJS, NextJS',
       thumbnail: NFTCo,
     },
@@ -60,10 +60,9 @@ const Projects = () => {
     <div>
       <div className="pt-20 lg:pt-0"></div>
       <div
-        id="projects"
         className="flex flex-col items-start space-y-5 md:space-y-7 md:px-5"
       >
-        <h1 className="mt-20 text-5xl font-semibold">Projects</h1>
+        <h1 className="pt-32 text-5xl font-semibold pb-2">Projects</h1>
         <div className="grid gap-12 mt-12 md:grid-cols-2">
           {works.map((work, index) => (
             <div

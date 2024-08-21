@@ -21,9 +21,9 @@ const About = () => {
 
   return (
     <div className="flex flex-col items-start space-y-5 min-h-screen justify-center md:space-y-7 md:px-5">
-      <h1 id="about" className="text-5xl font-semibold pt-32 dark:text-gray-100">About Me</h1>
+      <h1 className="text-5xl font-semibold pt-28 dark:text-gray-100">About Me</h1>
       <div className="md:flex md:items-start md:space-x-8 md:w-full md:justify-center">
-        <div className="flex flex-col items-center space-x-2 pt-16">
+        <div className="flex flex-col items-center space-x-2 pt-20">
           <img
             src="/static/avatar.jpg"
             alt="avatar"
@@ -41,30 +41,6 @@ const About = () => {
 
         <div className="prose max-w-none pt-14 pb-8 md:flex-1 dark:text-gray-300">
           <ReactMarkdown rehypePlugins={[rehypeRaw]}>{description}</ReactMarkdown>
-          <p className="mt-8 cursor-pointer">
-            <a
-              className="!font-normal !text-black dark:!text-white !no-underline"
-              target="_blank"
-              rel="noreferrer"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('projects').scrollIntoView({
-                  behavior: 'smooth'
-                });
-              }}
-            >
-              <RoughNotation
-                show
-                type="box"
-                animationDelay={250}
-                animationDuration={2000}
-                strokeWidth={2}
-                color={document.documentElement.classList.contains('dark') ? '#CAF0F8' : '#F9E5D8'}
-              >
-                View My Projects
-              </RoughNotation>
-            </a>
-          </p>
         </div>
       </div>
     </div>
