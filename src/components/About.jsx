@@ -12,8 +12,9 @@ const About = () => {
 
   &nbsp;
 
-  In addition to my studies, I'm working on a chatbot project that provides personalised medical advice to patients. The chatbot uses machine learning for accurate responses and involves both frontend and backend development.
-
+  In addition to my studies, I'm collaborating with a team to develop a chatbot project that quizzes medical personnel. Users will respond with audio input and the system evaluates their answer based on their responses. 
+  The chatbot uses machine learning and involves both frontend and backend development. I am mainly working on the software development proccess.
+  
   &nbsp;
 
   When I'm not immersed in work or studies, you'll likely find me building legos!`;
