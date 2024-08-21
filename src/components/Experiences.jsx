@@ -57,6 +57,7 @@ const Experiences = () => {
                 borderRight: '10px solid #F2F4F6' 
               }}
               date={experience.date}
+              dateClassName="text-gray-600 dark:text-gray-300"
               icon={
                 <a href={experience.link} target="_blank" rel="noopener noreferrer">
                   <img

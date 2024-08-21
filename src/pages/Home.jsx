@@ -60,11 +60,11 @@ const Home = () => {
                 <a
                   href={`#${section.id}`}
                   className={`w-4 h-4 rounded-full block ${
-                    activeSection === section.id ? 'bg-gray-800' : 'bg-gray-300'
+                    activeSection === section.id ? 'bg-gray-800 dark:bg-gray-600' : 'bg-gray-300 dark:bg-gray-300'
                   }`}
                 ></a>
                 <span
-                  className={`absolute left-6 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 text-sm py-1 px-3 rounded-full whitespace-nowrap transition-opacity duration-300 ${
+                  className={`absolute left-6 top-1/2 transform -translate-y-1/2 bg-white text-gray-800 dark:bg-white dark:text-gray-800 text-sm py-1 px-3 rounded-full whitespace-nowrap transition-opacity duration-300 ${
                     activeSection === section.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
                   }`}
                 >
