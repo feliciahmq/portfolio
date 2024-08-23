@@ -53,7 +53,7 @@ const Home = () => {
       </div>
 
       {activeSection && (
-        <div className="sticky top-20 h-screen w-1/12 flex flex-col items-center justify-center">
+        <div className="sticky top-20 h-screen w-1/12 flex flex-col items-center justify-center hidden">
           <ul className="relative space-y-10">
             {sections.map((section) => (
               <li key={section.id} className="relative group flex items-center">

@@ -73,10 +73,9 @@ const Experiences = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                borderRadius: '50%', 
-                width: '60px', 
-                height: '60px', 
+                borderRadius: '50%',  
               }}
+              
             >
               <h3 className="vertical-timeline-element-title font-bold">{experience.role}</h3>
               <h4 className="vertical-timeline-element-subtitle font-medium text-gray-700">{experience.company_name}</h4>
