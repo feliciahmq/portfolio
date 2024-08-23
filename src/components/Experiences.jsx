@@ -12,8 +12,8 @@ const Experiences = () => {
       description: 'Improved site functionality by resolving feature issues during site migration to Ghost platform.',
     },
     {
-      role: 'Civil Aviation Authority of Singapore',
-      company_name: 'Digital Transformation Intern',
+      role: 'Digital Tranformation Intern',
+      company_name: 'Civil Aviation Authority of Singapore',
       link: 'https://www.caas.gov.sg/',
       date: 'June 2024 - August 2024',
       icon: '/static/caas_logo.png',
@@ -65,7 +65,7 @@ const Experiences = () => {
                 borderRight: '10px solid #F2F4F6' 
               }}
               date={experience.date}
-              dateClassName="text-gray-600 dark:text-gray-300"
+              dateClassName="text-gray-600 dark:text-gray-700 md:dark:text-gray-300"
               icon={
                 <a href={experience.link} target="_blank" rel="noopener noreferrer">
                   <img
