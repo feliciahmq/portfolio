@@ -27,6 +27,14 @@ const Experiences = () => {
       icon: '/static/nus_logo.png',
       description: 'Mentored 20 students in functional programming and OOP in Java.',
     },
+    {
+      role: 'Software Engineer',
+      company_name: 'NUS Fintech Society',
+      link: 'https://fintechsociety.comp.nus.edu.sg/',
+      date: 'Aug 2024 - Present',
+      icon: '/static/fintech_logo.png',
+      description: '',
+    },
   ];
 
   const borderColors = ['#ACCBE1', '#FCC3BC', '#B7E4C7'];
