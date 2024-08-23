@@ -15,7 +15,7 @@ const Experiences = () => {
       role: 'Digital Tranformation Intern',
       company_name: 'Civil Aviation Authority of Singapore',
       link: 'https://www.caas.gov.sg/',
-      date: 'June 2024 - August 2024',
+      date: 'June 2024 - Aug 2024',
       icon: '/static/caas_logo.png',
       description: 'Developed and implemented RPA workflows with UiPath, enhancing workplace efficiency.',
     },
