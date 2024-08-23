@@ -71,7 +71,7 @@ const Experiences = () => {
                   <img
                     src={experience.icon}
                     alt={experience.company_name}
-                    className="w-full h-full object-contain rounded-full"
+                    className="w-full h-full object-contain rounded-full p-1" 
                   />
                 </a>
               }
