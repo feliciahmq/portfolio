@@ -38,14 +38,6 @@ const Projects = () => {
       stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
       thumbnail: InfiniGen,
     },
-    {
-      title: 'Bank Landing Page',
-      description: 'A modern bank landing page. I was exploring tailwind css and web dev!',
-      code: 'https://github.com/feliciahmq/bank-landing-page',
-      live: 'https://feliciahmq.github.io/bank-landing-page/',
-      stack: 'React, Tailwind CSS',
-      thumbnail: BankLandingPage,
-    },
   ];
   
   const TechStack = ({ stack }) => {
