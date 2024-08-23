@@ -7,27 +7,27 @@ import NFTCo from "../assets/images/NFTCo.png"
 const Projects = () => {
   const works = [
     {
-      title: 'NFTCo Marketplace',
-      description: 'An NFT marketplace on Ethereum, using Solidity Smart Contract to facilitate transactions. Using Hardhat for developing and testing smart contracts. Integrating with MetaMask for secure user authentication. Have yet connected smart contract with frontend :(',
-      code: 'https://github.com/feliciahmq/nft-marketplace',
-      live: 'https://nftco-frontend.vercel.app/NF',
-      stack: 'Ethereum, Smart Contract, Solidity, Hardhat, ReactJS, NextJS',
-      thumbnail: NFTCo,
-    },
-    {
       title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Utilised Tensorflow to calculate cosine similarity for product recommendation engine, and developed unit testings with Jest and React Testing Library.',
+      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Used Tensorflow to calculate cosine similarity for product recommendation engine, and developed unit testings with Jest and React Testing Library.',
       code: 'https://github.com/feliciahmq/orbital-mechhub.git',
       live: 'https://orbital-mechhub.web.app/',
       stack: 'ReactJS, Firebase, Tensorflow, Zustand, Git, Jest, React Testing Library',
       thumbnail: MechHub,
     },
     {
+      title: 'NFTCo Marketplace',
+      description: 'An NFT marketplace, using Solidity Smart Contract to facilitate transactions. Built an interactive frontend with ReactJS and NextJS. Have yet connected smart contract with frontend.',
+      code: 'https://github.com/feliciahmq/nft-marketplace',
+      live: 'https://nftco-frontend.vercel.app/',
+      stack: 'Smart Contract, Solidity, ReactJS, NextJS',
+      thumbnail: NFTCo,
+    },
+    {
       title: 'FinHub',
       description: 'A data dashboard built with MERN stack. It allows users to  visualise and analyse real-time financial data.',
       code: 'https://github.com/feliciahmq/finhub',
       live: 'https://drive.google.com/file/d/1zvYOmkbDfuLAKlEVh8YF6VTaAFmYxOXx/view?usp=drive_link',
-      stack: 'React, Nodejs, Expressjs, MongoDB, Redux Toolkit, Material UI',
+      stack: 'React, NodeJS, ExpressJS, MongoDB, Redux Toolkit, Material UI',
       thumbnail: FinHub,
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
       description: 'An AI generation platform that focuses on a fully interactive frontend, built to explore NextJS. The project is without API integration. ',
       code: 'https://github.com/feliciahmq/infinigen',
       live: 'https://infinigen.vercel.app/',
-      stack: 'Nextjs, Tailwind CSS, Zustand, Shadcn-UI',
+      stack: 'NextJS, TailwindCSS, Zustand, Shadcn UI',
       thumbnail: InfiniGen,
     },
   ];
