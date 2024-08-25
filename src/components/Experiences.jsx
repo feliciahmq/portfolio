@@ -4,6 +4,22 @@ import 'react-vertical-timeline-component/style.min.css';
 const Experiences = () => {
   const experiences = [
     {
+      role: 'Software Engineer',
+      company_name: 'NUS Fintech Society',
+      link: 'https://fintechsociety.comp.nus.edu.sg/',
+      date: 'Aug 2024 - Present',
+      icon: '/static/fintech_logo.png',
+      description: '',
+    },
+    {
+      role: 'Undergraduate Teaching Assistant',
+      company_name: 'NUS School of Computing',
+      link: 'https://www.comp.nus.edu.sg/',
+      date: 'Aug 2024 - Present',
+      icon: '/static/nus_logo.png',
+      description: 'Mentored 20 students in functional programming and OOP in Java.',
+    },
+    {
       role: 'Web Developer',
       company_name: 'Advisory Singapore',
       link: 'https://advisory.sg/',
@@ -18,22 +34,6 @@ const Experiences = () => {
       date: 'June 2024 - Aug 2024',
       icon: '/static/caas_logo.png',
       description: 'Developed and implemented RPA workflows with UiPath, enhancing workplace efficiency.',
-    },
-    {
-      role: 'Undergraduate Teaching Assistant',
-      company_name: 'NUS School of Computing',
-      link: 'https://www.comp.nus.edu.sg/',
-      date: 'Aug 2024 - Present',
-      icon: '/static/nus_logo.png',
-      description: 'Mentored 20 students in functional programming and OOP in Java.',
-    },
-    {
-      role: 'Software Engineer',
-      company_name: 'NUS Fintech Society',
-      link: 'https://fintechsociety.comp.nus.edu.sg/',
-      date: 'Aug 2024 - Present',
-      icon: '/static/fintech_logo.png',
-      description: '',
     },
   ];
 
