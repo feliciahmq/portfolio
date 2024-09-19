@@ -9,7 +9,7 @@ const Experiences = () => {
       link: 'https://fintechsociety.comp.nus.edu.sg/',
       date: 'Aug 2024 - Present',
       icon: '/static/fintech_logo.png',
-      description: '',
+      description: 'Developing NUS Fintech Summit 2025 using NextJS, and Tailwind CSS, transforming designer prototypes into functional interfaces.',
     },
     {
       role: 'Undergraduate Teaching Assistant',
@@ -67,13 +67,9 @@ const Experiences = () => {
               date={experience.date}
               dateClassName="text-gray-600 dark:text-gray-700 lg:dark:text-gray-300"
               icon={
-                <a href={experience.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={experience.icon}
-                    alt={experience.company_name}
-                    className="w-full h-full object-contain rounded-full p-1" 
-                  />
-                </a>
+                <img 
+                  src={experience.icon}
+                />
               }
               iconStyle={{
                 background: '#fff',
@@ -86,7 +82,11 @@ const Experiences = () => {
               
             >
               <h3 className="vertical-timeline-element-title font-bold">{experience.role}</h3>
-              <h4 className="vertical-timeline-element-subtitle font-medium text-gray-700">{experience.company_name}</h4>
+              <h4 className="vertical-timeline-element-subtitle font-medium text-gray-700">
+                <a href={experience.link} target="_blank" rel="noopener noreferrer" className="hover:text-[#9675CE]">
+                  {experience.company_name}
+                </a>
+              </h4>
               <p className='text-base'>{experience.description}</p>
             </VerticalTimelineElement>
           ))}

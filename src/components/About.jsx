@@ -4,17 +4,12 @@ import rehypeRaw from 'rehype-raw';
 
 const About = () => {
   const description = `
-  I'm a second-year **Computer Science** student at the **National University of Singapore**. (Fun fact: I was studying Business Analytics in Year 1, but I wanted to dive deep into AI, Networks and Databases, so I switched!)
+  I'm a second-year **Computer Science** student at the **National University of Singapore**. 
 
   &nbsp;
   
   Currently in school, I'm taking modules in <u>Computer Organisation and Computer Networks</u>. I also serve as a **teaching assistant for CS2030**, where I facilitate lab sessions on functional programming and object-oriented programming in Java.
 
-  &nbsp;
-
-  In addition to my studies, I'm collaborating with a team to develop a chatbot project that quizzes medical personnel. Users will respond with audio input and the system evaluates their answer based on their responses. 
-  The chatbot uses machine learning and involves both frontend and backend development. I am mainly working on the software development proccess.
-  
   &nbsp;
 
   When I'm not immersed in work or studies, you'll likely find me building legos!`;
@@ -39,7 +34,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="prose max-w-none pt-14 pb-8 md:flex-1 dark:text-gray-300">
+        <div className="prose max-w-none pt-28 pb-8 md:flex-1 dark:text-gray-300">
           <ReactMarkdown rehypePlugins={[rehypeRaw]}>{description}</ReactMarkdown>
         </div>
       </div>
