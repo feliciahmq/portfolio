@@ -8,12 +8,14 @@ const About = () => {
 
   &nbsp;
   
-  Currently in school, I'm taking modules in <u>Computer Organisation and Computer Networks</u>. I also serve as a **teaching assistant for CS2030**, where I facilitate lab sessions on functional programming and object-oriented programming in Java.
-
+  Currently, I'm focusing on software engineering roles while also developing my skills in data engineering. 
+  Move fast and break things, that's how I learn ! 
+ 
   &nbsp;
 
-  When I'm not immersed in work or studies, you'll likely find me building legos!`;
+  If we share similar interests, I'd love to connect for a coffee chat !
 
+  `
   return (
     <div className="flex flex-col items-start space-y-5 min-h-screen justify-center md:space-y-7 md:px-5">
       <h1 className="text-5xl font-semibold pt-28 dark:text-gray-100">About Me</h1>
@@ -34,7 +36,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="prose max-w-none pt-28 pb-8 md:flex-1 dark:text-gray-300">
+        <div className="prose max-w-none pt-32 pb-8 md:flex-1 dark:text-gray-300">
           <ReactMarkdown rehypePlugins={[rehypeRaw]}>{description}</ReactMarkdown>
         </div>
       </div>

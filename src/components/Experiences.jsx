@@ -9,7 +9,7 @@ const Experiences = () => {
       link: 'https://fintechsociety.comp.nus.edu.sg/',
       date: 'Aug 2024 - Present',
       icon: '/static/fintech_logo.png',
-      description: 'Developing NUS Fintech Summit 2025 using NextJS, and Tailwind CSS, transforming designer prototypes into functional interfaces.',
+      description: 'Developing NUS Fintech Summit 2025 website using NextJS, and Tailwind CSS, transforming designer prototypes into functional interfaces.',
     },
     {
       role: 'Undergraduate Teaching Assistant',
