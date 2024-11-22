@@ -67,9 +67,12 @@ const Experiences = () => {
               date={experience.date}
               dateClassName="text-gray-600 dark:text-gray-700 lg:dark:text-gray-300"
               icon={
-                <img 
-                  src={experience.icon}
-                />
+                <a href={experience.link} target="_blank" rel="noopener noreferrer" className="hover:text-[#9675CE]">
+                  <img 
+                    src={experience.icon}
+                    className='object-contain h-[70%] w-[70%] ml-2'
+                  />
+                </a>
               }
               iconStyle={{
                 background: '#fff',
@@ -83,9 +86,7 @@ const Experiences = () => {
             >
               <h3 className="vertical-timeline-element-title font-bold">{experience.role}</h3>
               <h4 className="vertical-timeline-element-subtitle font-medium text-gray-700">
-                <a href={experience.link} target="_blank" rel="noopener noreferrer" className="hover:text-[#9675CE]">
-                  {experience.company_name}
-                </a>
+                {experience.company_name}
               </h4>
               <p className='text-base'>{experience.description}</p>
             </VerticalTimelineElement>

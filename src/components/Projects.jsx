@@ -1,4 +1,3 @@
-import BankLandingPage from '../assets/images/BankLandingPage.png';
 import MechHub from '../assets/images/MechHub.png';
 import InfiniGen from '../assets/images/InfiniGen.png';
 import FinHub from "../assets/images/FinHub.png"
@@ -19,7 +18,7 @@ const Projects = () => {
       description: 'An NFT marketplace, using Solidity Smart Contract to facilitate transactions. Built an interactive frontend with ReactJS and NextJS. Have yet connected smart contract with frontend.',
       code: 'https://github.com/feliciahmq/nft-marketplace',
       live: 'https://nftco-frontend.vercel.app/',
-      stack: 'Smart Contract, Solidity, ReactJS, NextJS',
+      stack: 'ReactJS, NextJS',
       thumbnail: NFTCo,
     },
     {
