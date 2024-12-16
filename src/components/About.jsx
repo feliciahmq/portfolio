@@ -1,4 +1,3 @@
-import { RoughNotation } from 'react-rough-notation';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 

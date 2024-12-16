@@ -1,10 +1,16 @@
+/* eslint-disable react/prop-types */
 import MechHub from '../assets/images/MechHub.png';
-import InfiniGen from '../assets/images/InfiniGen.png';
-import FinHub from "../assets/images/FinHub.png"
-import NFTCo from "../assets/images/NFTCo.png"
+import FSO from '../assets/images/FSO.png';
 
 const Projects = () => {
   const works = [
+    {
+      title: 'Full Stack Open',
+      description: 'My projects & solutions to the Full Stack Open course from the University of Helsinki',
+      code: 'https://github.com/feliciahmq/full-stack-open',
+      stack: 'React, Express, NodeJS, MongoDB, REST APIs, Postman, Redux, Unit Testing, Integration Testing, E2E Testing, Docker, PostgreSQL',
+      thumbnail: FSO,
+    },
     {
       title: 'MechHub Ecommerce Platform',
       description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Used Tensorflow to calculate cosine similarity for product recommendation engine, and developed unit testings with Jest and React Testing Library.',
@@ -12,30 +18,6 @@ const Projects = () => {
       live: 'https://orbital-mechhub.web.app/',
       stack: 'ReactJS, Firebase, Tensorflow, Zustand, Git, Jest, React Testing Library',
       thumbnail: MechHub,
-    },
-    {
-      title: 'NFTCo Marketplace',
-      description: 'An NFT marketplace, using Solidity Smart Contract to facilitate transactions. Built an interactive frontend with ReactJS and NextJS. Have yet connected smart contract with frontend.',
-      code: 'https://github.com/feliciahmq/nft-marketplace',
-      live: 'https://nftco-frontend.vercel.app/',
-      stack: 'ReactJS, NextJS',
-      thumbnail: NFTCo,
-    },
-    {
-      title: 'FinHub',
-      description: 'A data dashboard built with MERN stack. It allows users to  visualise and analyse real-time financial data.',
-      code: 'https://github.com/feliciahmq/finhub',
-      live: 'https://drive.google.com/file/d/1zvYOmkbDfuLAKlEVh8YF6VTaAFmYxOXx/view?usp=drive_link',
-      stack: 'React, NodeJS, ExpressJS, MongoDB, Redux Toolkit, Material UI',
-      thumbnail: FinHub,
-    },
-    {
-      title: 'InfiniGen',
-      description: 'An AI generation platform that focuses on a fully interactive frontend, built to explore NextJS. The project is without API integration. ',
-      code: 'https://github.com/feliciahmq/infinigen',
-      live: 'https://infinigen.vercel.app/',
-      stack: 'NextJS, TailwindCSS, Zustand, Shadcn UI',
-      thumbnail: InfiniGen,
     },
   ];
   
