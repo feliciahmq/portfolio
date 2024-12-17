@@ -8,6 +8,7 @@
     html {
         tab-size: 4;
         font-family: Work Sans, system-ui, sans-serif;
+        scroll-behavior: smooth;
     }
 }
 
@@ -15,4 +16,13 @@
     animation: fade-in ease 500ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 1169px) {
+
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+        text-align:right;
+        width: 100%;
+        margin-bottom: -12px
+    }
 }

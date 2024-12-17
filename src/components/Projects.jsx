@@ -1,26 +1,7 @@
 /* eslint-disable react/prop-types */
-import MechHub from '../assets/images/MechHub.png';
-import FSO from '../assets/images/FSO.png';
+import projects from "../data/projects";
 
 const Projects = () => {
-  const works = [
-    {
-      title: 'Full Stack Open',
-      description: 'My projects & solutions to the Full Stack Open course from the University of Helsinki',
-      code: 'https://github.com/feliciahmq/full-stack-open',
-      stack: 'React, Express, NodeJS, MongoDB, REST APIs, Postman, Redux, Unit Testing, Integration Testing, E2E Testing, Docker, PostgreSQL',
-      thumbnail: FSO,
-    },
-    {
-      title: 'MechHub Ecommerce Platform',
-      description: 'A full-stack e-commerce platform for mechanical keyboards, including social media features such as following, liking, forum and chat system. Used Tensorflow to calculate cosine similarity for product recommendation engine, and developed unit testings with Jest and React Testing Library.',
-      code: 'https://github.com/feliciahmq/orbital-mechhub.git',
-      live: 'https://orbital-mechhub.web.app/',
-      stack: 'ReactJS, Firebase, Tensorflow, Zustand, Git, Jest, React Testing Library',
-      thumbnail: MechHub,
-    },
-  ];
-  
   const TechStack = ({ stack }) => {
     return (
       <span className="px-2 py-1 text-xs font-semibold text-gray-700 bg-gray-200 rounded-full">
@@ -37,7 +18,7 @@ const Projects = () => {
       >
         <h1 className="pt-32 text-5xl font-semibold pb-2">Projects</h1>
         <div className="grid gap-12 mt-12 md:grid-cols-2">
-          {works.map((work, index) => (
+          {projects.map((project, index) => (
             <div
               key={index}
               className="p-4 space-y-5 border border-white group lg:gap-x-0 lg:gap-y-5 border-zinc-200 rounded-2xl"
@@ -48,20 +29,20 @@ const Projects = () => {
                 width="400"
                 height="400"
                 className="object-cover w-full h-auto rounded-2xl"
-                src={work.thumbnail}
+                src={project.thumbnail}
               />
               <div className="flex flex-col items-start space-y-3">
-                <h2 className="text-xl font-semibold">{work.title}</h2>
-                <p>{work.description}</p>
+                <h2 className="text-xl font-semibold">{project.title}</h2>
+                <p>{project.description}</p>
                 <div className="flex flex-wrap gap-2">
-                  {work.stack.split(', ').map((tech, techIndex) => (
+                  {project.stack.split(', ').map((tech, techIndex) => (
                     <TechStack stack={tech} key={techIndex} />
                   ))}
                 </div>
                 <div className="flex flex-row items-center w-full justify-start space-x-3">
-                  {work.live && (
+                  {project.live && (
                     <a
-                    href={work.live}
+                    href={project.live}
                     target="_blank"
                     rel="noreferrer"
                     className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
@@ -87,7 +68,7 @@ const Projects = () => {
                   </a>
                   )}
                   <a
-                    href={work.code}
+                    href={project.code}
                     target="_blank"
                     rel="noreferrer"
                     className="w-auto px-3 py-1 transition duration-500 ease-in-out delay-100 border rounded-lg hover:bg-zinc-900 hover:text-white dark:hover:text-black dark:hover:bg-white"
