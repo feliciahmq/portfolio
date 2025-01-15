@@ -5,7 +5,7 @@ const experiences = [
     link: 'https://www.mas.gov.sg/',
     date: 'Jan 2025 - Present',
     company_logo: '/static/logos/mas_logo.png',
-    description: '',
+    description: 'Elastic Stack',
     skills: [
     ],
   },
