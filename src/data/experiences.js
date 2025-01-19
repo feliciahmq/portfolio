@@ -10,6 +10,17 @@ const experiences = [
     ],
   },
   {
+    role: 'Undergraduate Teaching Assistant CS2030',
+    company_name: 'NUS School of Computing',
+    link: 'https://www.comp.nus.edu.sg/',
+    date: 'Aug 2024 - Present',
+    company_logo: '/static/logos/nus_logo.png',
+    description: 'Guided students in implementing a Discrete Event Simulator for a restaurant, managing queue systems.',
+    skills: [
+      { name: 'Java', logo: '/static/techLogos/java_logo.png' },
+    ],
+  },
+  {
     role: 'Software Engineer',
     company_name: 'NUS Fintech Society',
     link: 'https://fintechsociety.comp.nus.edu.sg/',
@@ -20,17 +31,6 @@ const experiences = [
       { name: 'NextJS', logo: '/static/techLogos/nextjs_logo.svg' },
       { name: 'Typescript', logo: '/static/techLogos/typescript_logo.png' },
       { name: 'Tailwind CSS', logo: '/static/techLogos/tailwindcss_logo.png' },
-    ],
-  },
-  {
-    role: 'Undergraduate Teaching Assistant CS2030',
-    company_name: 'NUS School of Computing',
-    link: 'https://www.comp.nus.edu.sg/',
-    date: 'Aug 2024 - Nov 2024',
-    company_logo: '/static/logos/nus_logo.png',
-    description: 'Mentored 24 students in functional programming and object-oriented programming in Java.',
-    skills: [
-      { name: 'Java', logo: '/static/techLogos/java_logo.png' },
     ],
   },
   {

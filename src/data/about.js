@@ -4,7 +4,7 @@ const description = `
   &nbsp;
   
   Currently, I'm focusing on software engineering roles while also developing my skills in data engineering. 
-  Move fast and break things, that's how I learn ! 
+  Move fast and don't break things, that's how I learn ! 
  
   &nbsp;
 
