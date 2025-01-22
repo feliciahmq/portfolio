@@ -5,8 +5,12 @@ const experiences = [
     link: 'https://www.mas.gov.sg/',
     date: 'Jan 2025 - Present',
     company_logo: '/static/logos/mas_logo.png',
-    description: 'Elastic Stack',
+    description: '',
     skills: [
+        { name: 'Elasticsearch', logo: '/static/techLogos/elasticsearch_logo.png' },
+        { name: 'Logstash', logo: '/static/techLogos/logstash_logo.png' },
+        { name: 'Grafana', logo: '/static/techLogos/grafana_logo.png' },
+        { name: 'React-Admin', logo: '/static/techLogos/reactadmin_logo.png' },
     ],
   },
   {
@@ -30,7 +34,7 @@ const experiences = [
     skills: [
       { name: 'NextJS', logo: '/static/techLogos/nextjs_logo.svg' },
       { name: 'Typescript', logo: '/static/techLogos/typescript_logo.png' },
-      { name: 'Tailwind CSS', logo: '/static/techLogos/tailwindcss_logo.png' },
+      { name: 'TailwindCSS', logo: '/static/techLogos/tailwindcss_logo.png' },
     ],
   },
   {
