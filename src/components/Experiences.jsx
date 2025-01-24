@@ -50,12 +50,12 @@ const Experiences = () => {
                     {experience.skills.map((skill, skillIndex) => (
                       <div
                         key={skillIndex}
-                        className="group relative inline-block hover:scale-100 transition-transform duration-200"
+                        className="group relative inline-block transition-transform duration-200"
                       >
                         <img
                           src={skill.logo}
                           alt={skill.name}
-                          className="h-[30px] w-[30px] object-contain"
+                          className="h-[30px] w-[30px] object-contain origin-center will-change-transform backface-hidden transition-transform duration-200"
                         />
                         <span
                           className="absolute text-xs text-[#1A1A1A] font-mono opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300 left-1/2 -translate-x-1/2 whitespace-nowrap"

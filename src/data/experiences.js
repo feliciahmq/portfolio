@@ -19,7 +19,7 @@ const experiences = [
     link: 'https://www.comp.nus.edu.sg/',
     date: 'Aug 2024 - Present',
     company_logo: '/static/logos/nus_logo.png',
-    description: 'Guided students in implementing a Discrete Event Simulator for a restaurant, managing queue systems.',
+    description: 'Guided students in implementing a Discrete Event Simulator for a restaurant, managing queue systems. Object-oriented and Functional Programming.',
     skills: [
       { name: 'Java', logo: '/static/techLogos/java_logo.png' },
     ],
