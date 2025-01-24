@@ -28,7 +28,7 @@ const experiences = [
     role: 'Software Engineer',
     company_name: 'NUS Fintech Society',
     link: 'https://fintechsociety.comp.nus.edu.sg/',
-    date: 'Aug 2024 - Present',
+    date: 'Aug 2024 - Jan 2025',
     company_logo: '/static/logos/fintech_logo.png',
     description: 'Developed NUS Fintech Summit 2025 website using NextJS, and Tailwind CSS, transforming designer prototypes into functional interfaces.',
     skills: [
