@@ -9,6 +9,7 @@ const projects = [
     title: 'Job Tracker',
     description: 'Track your job hunt. A CRUD app to manage job applications, built with T3 Stack. Frequent deprecations, and scattered documentations so it got slightly annoying building this app. Loved Shadcn for their clean and modern components, and type safety with tRPC and Zod.',
     code: 'https://github.com/feliciahmq/t3-job-app',
+    live: 'https://t3-job-app.vercel.app/',
     stack: 'NextJS, Prisma, TailwindCSS, tRPC, Zod, Shadcn-UI',
     thumbnail: JobTracker,
 	},
